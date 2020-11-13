@@ -1,1 +1,32 @@
 Hello World!
+
+mkdir nameOfTheFolder
+
+cd nameOfTheFolder
+
+git init
+
+touch newFile.txt
+
+code .
+
+#write something in the newFile
+
+git status
+
+#untracked newFile
+
+git add .
+
+#stage your newFile
+
+git commit -m "adding new file"
+
+Create a git hub repo name it same as your local repo
+
+git remote add origin git@github.com:JoshBernstein/intro_to_github.git
+
+git branch -M main
+
+git push -u origin main
+
